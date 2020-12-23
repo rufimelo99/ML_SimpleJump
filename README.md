@@ -1,5 +1,5 @@
 # ML_SimpleJump
-Simple unity ml project where a agent (cube) learns to jump
+Simple unity ml project where an agent (cube) learns to jump
 
 It was my first ML unity project. I followed an online guide in order to understand how the toolkit works.
 Each cube has a behaviour and detects the obstacle which it is supposed to jump over, as well a "wall" above, the road and a "wall" connected to the obstacle (so we can give him a reward for jumping over)
