@@ -6,9 +6,11 @@ Each cube has a behaviour and detects the obstacle which it is supposed to jump 
 
 To run the learning process i create an environment through anaconda.
 **Run simulations** 
-`mlagents-learn` 
-`mlagents-learn --force`                                  (restart from scratch)
-`mlagents-learn  --resume`                              (continue the learning process)
+| commands  | 
+|--|
+| `mlagents-learn`  | 
+|  `mlagents-learn --force`|
+|  `mlagents-learn --resume`|
 ![5](https://user-images.githubusercontent.com/44201826/102959547-c04f1e00-44d7-11eb-8670-79a3c76d673a.PNG)
 ![4](https://user-images.githubusercontent.com/44201826/102959556-c644ff00-44d7-11eb-92b1-8455be33c424.PNG)
 ![3](https://user-images.githubusercontent.com/44201826/102959567-cb09b300-44d7-11eb-9722-a40541fd2413.PNG)
