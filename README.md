@@ -5,7 +5,11 @@ It was my first ML unity project. I followed an online guide in order to underst
 Each cube has a behaviour and detects the obstacle which it is supposed to jump over, as well a "wall" above, the road and a "wall" connected to the obstacle (so we can give him a reward for jumping over)
 
 To run the learning process i create an environment through anaconda.
-The rates were not good tho.
+**Run simulations** 
+'mlagents-learn'
+'mlagents-learn --force  '                                  (restart from scratch)
+'mlagents-learn  --resume   '                               (continue the learning process)
+The rates were not good tho.  
 ![5](https://user-images.githubusercontent.com/44201826/102959547-c04f1e00-44d7-11eb-8670-79a3c76d673a.PNG)
 ![4](https://user-images.githubusercontent.com/44201826/102959556-c644ff00-44d7-11eb-92b1-8455be33c424.PNG)
 ![3](https://user-images.githubusercontent.com/44201826/102959567-cb09b300-44d7-11eb-9722-a40541fd2413.PNG)
