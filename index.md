@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+## First ML-Agents Project
 
-You can use the [editor on GitHub](https://github.com/rufimelo99/ML_SimpleJump/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# ML_SimpleJump
+Simple unity ml project where an agent (cube) learns to jump
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+To run the learning process i create an environment through anaconda.
+The rates were not good tho.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+It was my first ML unity project. I followed an online guide in order to understand how the toolkit works.
+Each cube has a behaviour and detects the obstacle which it is supposed to jump over, as well a "wall" above, the road and a "wall" connected to the obstacle (so we can give him a reward for jumping over)
+![5](https://user-images.githubusercontent.com/44201826/102959547-c04f1e00-44d7-11eb-8670-79a3c76d673a.PNG)
+![4](https://user-images.githubusercontent.com/44201826/102959556-c644ff00-44d7-11eb-92b1-8455be33c424.PNG)
+![3](https://user-images.githubusercontent.com/44201826/102959567-cb09b300-44d7-11eb-9722-a40541fd2413.PNG)
+![2](https://user-images.githubusercontent.com/44201826/102959574-cfce6700-44d7-11eb-93d3-20b0089c5ef2.PNG)
+![1](https://user-images.githubusercontent.com/44201826/102959579-d1982a80-44d7-11eb-86ba-7f1eae5ec378.PNG)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rufimelo99/ML_SimpleJump/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
